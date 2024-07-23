@@ -3,6 +3,12 @@
     vertical-align: top;
 }
 
+.name{
+    font-weight: 1600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150;
+}
+
 .logoImg{
     margin-top: 30px;
     width: 60px;
@@ -34,11 +40,40 @@
     padding: 10px 3%;
 }
 
+.biography{
+    width: 60%;
+}
+
 .bottomNav{
-    display: inline-block;
+    display: grid;
+    grid-template-rows: 1fr;
     vertical-align: top;
     background-color: #EEEEEE;
+    
 }
+
+.boxBox{
+    padding: 20px;
+}
+
+.projectsB{
+    font-size: 20px;
+    padding: 10px;
+    color: blue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
 
 .linkStyle2{
     text-decoration: none;
